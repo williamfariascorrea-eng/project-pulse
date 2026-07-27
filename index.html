@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Pulse - Monitor de Projetos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <h1>Project Pulse</h1>
+      <p class="subtitle">Monitor de saude dos projetos</p>
+      <div class="meta">
+        <span id="last-update">--</span>
+        <span class="dot-sep">·</span>
+        <span id="uptime-badge">--</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="app">Apps</button>
+      <button class="filter-btn" data-filter="landing">Landing Pages</button>
+      <button class="filter-btn" data-filter="game">Jogos</button>
+      <button class="filter-btn" data-filter="portfolio">Portfolios</button>
+      <button class="filter-btn" data-filter="wiki">Wikis</button>
+    </div>
+
+    <div class="summary">
+      <div class="stat up"><span id="count-up">0</span> UP</div>
+      <div class="stat down"><span id="count-down">0</span> DOWN</div>
+      <div class="stat total"><span id="count-total">0</span> Total</div>
+    </div>
+
+    <div id="project-grid" class="project-grid"></div>
+  </main>
+
+  <footer>
+    <p><a href="https://github.com/williamfariascorrea-eng/project-pulse" target="_blank">project-pulse</a> · <span id="footer-time">--</span></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

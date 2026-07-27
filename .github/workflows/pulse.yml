@@ -1,0 +1,36 @@
+name: Project Pulse
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run pulse
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pulse.json pulse-history.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: pulse update $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git push
+          else
+            echo "No changes"
+          fi
