@@ -1,12 +1,12 @@
 # Project Pulse
 
-Monitor de saude para os projetos de William Correa.
+A lightweight uptime dashboard that monitors the health of William Corrêa's deployed projects.
 
-A cada 30 minutos uma GitHub Action pinga todos os deploys (Render + Vercel + GitHub Pages) e salva o resultado em `pulse.json`. A pagina `index.html` consome esse JSON e mostra o dashboard.
+A GitHub Action pings every deployment (**Render + Vercel + GitHub Pages**) every 30 minutes and stores the results in `pulse.json`. The `index.html` page reads that JSON and renders a live dashboard.
 
-## Projetos monitorados
+## 🔎 Monitored projects
 
-| Projeto | URL | Categoria |
+| Project | URL | Category |
 |---|---|---|
 | williamdev-hub | https://williamdev-hub.vercel.app | portfolio |
 | Fitmais+ | https://fitmais-ashen.vercel.app | landing |
@@ -21,16 +21,20 @@ A cada 30 minutos uma GitHub Action pinga todos os deploys (Render + Vercel + Gi
 | CalculadoraIMC | https://williamfariascorrea-eng.github.io/CalculadoraIMC/ | app |
 | PomodoroTimer | https://williamfariascorrea-eng.github.io/PomodoroTimer/ | app |
 
-## Rodar localmente
+## 🚀 Run locally
 
 ```bash
 npm ci
 npm run pulse
 ```
 
-O comando gera `pulse.json` e `pulse-history.json` na raiz do projeto. Abra `index.html` no navegador para ver o dashboard.
+This generates `pulse.json` and `pulse-history.json` in the project root. Open `index.html` in your browser to view the dashboard.
 
-## GitHub Pages
+## 🌐 GitHub Pages
 
-1. Settings > Pages > Source: GitHub Actions
-2. Ou deploy manual da branch `main` na raiz
+1. Settings > Pages > Source: **GitHub Actions**
+2. Or deploy the `main` branch manually (project root)
+
+## 📄 License
+
+MIT © William Corrêa
