@@ -11,15 +11,15 @@ A GitHub Action pings every deployment (**Render + Vercel + GitHub Pages**) ever
 | williamdev-hub | https://williamdev-hub.vercel.app | portfolio |
 | Fitmais+ | https://fitmais-ashen.vercel.app | landing |
 | LinkTreeWilliam | https://linktree-william.vercel.app | app |
-| Meu-Portfolio | https://buildbywilliam.onrender.com | portfolio |
+| Meu-Portfolio | https://meu-portfolio-sepia-seven.vercel.app | portfolio |
 | finance-dashboard | https://finance-dashboard-jqhp.onrender.com | app |
 | TeamBanks | https://teambanks.onrender.com | landing |
 | PaulinhoPereira | https://paulinhopereira.onrender.com | landing |
 | CabalRequiem | https://cabalrequiem.onrender.com | wiki |
 | Wiki-Cabal-Horizon | https://cabal-online-wiki.onrender.com | wiki |
 | MemoryMatch | https://memorymatch-me7b.onrender.com | game |
-| CalculadoraIMC | https://williamfariascorrea-eng.github.io/CalculadoraIMC/ | app |
-| PomodoroTimer | https://williamfariascorrea-eng.github.io/PomodoroTimer/ | app |
+| CalculadoraIMC | https://calculadora-imc-one-sigma.vercel.app | app |
+| PomodoroTimer | https://pomodoro-timer-phi-ruby.vercel.app | app |
 | BYTE | https://byte-studio-one.vercel.app | landing |
 
 ## 🚀 Run locally
