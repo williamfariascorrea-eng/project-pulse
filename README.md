@@ -20,6 +20,7 @@ A GitHub Action pings every deployment (**Render + Vercel + GitHub Pages**) ever
 | MemoryMatch | https://memorymatch-me7b.onrender.com | game |
 | CalculadoraIMC | https://williamfariascorrea-eng.github.io/CalculadoraIMC/ | app |
 | PomodoroTimer | https://williamfariascorrea-eng.github.io/PomodoroTimer/ | app |
+| BYTE | https://byte-studio-one.vercel.app | landing |
 
 ## 🚀 Run locally
 

@@ -17,6 +17,7 @@ export const projects: Project[] = [
   { name: 'MemoryMatch',             url: 'https://memorymatch-me7b.onrender.com',                category: 'game' },
   { name: 'CalculadoraIMC',          url: 'https://williamfariascorrea-eng.github.io/CalculadoraIMC/', category: 'app' },
   { name: 'PomodoroTimer',           url: 'https://williamfariascorrea-eng.github.io/PomodoroTimer/',  category: 'app' },
+  { name: 'BYTE',                    url: 'https://byte-studio-one.vercel.app',                        category: 'landing' },
 ]
 
 export const HISTORY_FILE = 'pulse-history.json'
