@@ -1,127 +1,5 @@
 [
   {
-    "ts": "2026-09-04T17:19:42.079Z",
-    "results": [
-      {
-        "name": "BYTE",
-        "url": "https://byte-studio-one.vercel.app",
-        "category": "landing",
-        "status": "up",
-        "code": 200,
-        "latency": 396,
-        "timestamp": "2026-09-04T17:19:41.598Z"
-      },
-      {
-        "name": "CabalRequiem",
-        "url": "https://cabalrequiem.onrender.com",
-        "category": "wiki",
-        "status": "up",
-        "code": 200,
-        "latency": 398,
-        "timestamp": "2026-09-04T17:19:41.594Z"
-      },
-      {
-        "name": "CalculadoraIMC",
-        "url": "https://calculadora-imc-one-sigma.vercel.app",
-        "category": "app",
-        "status": "up",
-        "code": 200,
-        "latency": 429,
-        "timestamp": "2026-09-04T17:19:41.597Z"
-      },
-      {
-        "name": "finance-dashboard",
-        "url": "https://finance-dashboard-jqhp.onrender.com",
-        "category": "app",
-        "status": "up",
-        "code": 200,
-        "latency": 283,
-        "timestamp": "2026-09-04T17:19:41.591Z"
-      },
-      {
-        "name": "Fitmais+",
-        "url": "https://fitmais-ashen.vercel.app",
-        "category": "landing",
-        "status": "up",
-        "code": 200,
-        "latency": 83,
-        "timestamp": "2026-09-04T17:19:41.588Z"
-      },
-      {
-        "name": "LinkTreeWilliam",
-        "url": "https://linktree-william.vercel.app",
-        "category": "app",
-        "status": "down",
-        "code": 404,
-        "latency": 80,
-        "timestamp": "2026-09-04T17:19:41.589Z"
-      },
-      {
-        "name": "MemoryMatch",
-        "url": "https://memorymatch-me7b.onrender.com",
-        "category": "game",
-        "status": "up",
-        "code": 200,
-        "latency": 475,
-        "timestamp": "2026-09-04T17:19:41.596Z"
-      },
-      {
-        "name": "Meu-Portfolio",
-        "url": "https://meu-portfolio-sepia-seven.vercel.app",
-        "category": "portfolio",
-        "status": "up",
-        "code": 200,
-        "latency": 403,
-        "timestamp": "2026-09-04T17:19:41.590Z"
-      },
-      {
-        "name": "PaulinhoPereira",
-        "url": "https://paulinhopereira.onrender.com",
-        "category": "landing",
-        "status": "down",
-        "code": 503,
-        "latency": 248,
-        "timestamp": "2026-09-04T17:19:41.593Z"
-      },
-      {
-        "name": "PomodoroTimer",
-        "url": "https://pomodoro-timer-phi-ruby.vercel.app",
-        "category": "app",
-        "status": "up",
-        "code": 200,
-        "latency": 372,
-        "timestamp": "2026-09-04T17:19:41.597Z"
-      },
-      {
-        "name": "TeamBanks",
-        "url": "https://teambanks.onrender.com",
-        "category": "landing",
-        "status": "up",
-        "code": 200,
-        "latency": 363,
-        "timestamp": "2026-09-04T17:19:41.592Z"
-      },
-      {
-        "name": "Wiki-Cabal-Horizon",
-        "url": "https://cabal-online-wiki.onrender.com",
-        "category": "wiki",
-        "status": "up",
-        "code": 200,
-        "latency": 373,
-        "timestamp": "2026-09-04T17:19:41.595Z"
-      },
-      {
-        "name": "williamdev-hub",
-        "url": "https://williamdev-hub.vercel.app",
-        "category": "portfolio",
-        "status": "up",
-        "code": 200,
-        "latency": 238,
-        "timestamp": "2026-09-04T17:19:41.533Z"
-      }
-    ]
-  },
-  {
     "ts": "2026-09-04T19:45:04.167Z",
     "results": [
       {
@@ -20493,6 +20371,128 @@
         "code": 200,
         "latency": 358,
         "timestamp": "2026-10-01T00:03:04.640Z"
+      }
+    ]
+  },
+  {
+    "ts": "2026-10-01T06:16:44.561Z",
+    "results": [
+      {
+        "name": "BYTE",
+        "url": "https://byte-studio-one.vercel.app",
+        "category": "landing",
+        "status": "up",
+        "code": 200,
+        "latency": 324,
+        "timestamp": "2026-10-01T06:16:44.106Z"
+      },
+      {
+        "name": "CabalRequiem",
+        "url": "https://cabalrequiem.onrender.com",
+        "category": "wiki",
+        "status": "up",
+        "code": 200,
+        "latency": 350,
+        "timestamp": "2026-10-01T06:16:44.102Z"
+      },
+      {
+        "name": "CalculadoraIMC",
+        "url": "https://calculadora-imc-one-sigma.vercel.app",
+        "category": "app",
+        "status": "up",
+        "code": 200,
+        "latency": 346,
+        "timestamp": "2026-10-01T06:16:44.105Z"
+      },
+      {
+        "name": "finance-dashboard",
+        "url": "https://finance-dashboard-jqhp.onrender.com",
+        "category": "app",
+        "status": "up",
+        "code": 200,
+        "latency": 347,
+        "timestamp": "2026-10-01T06:16:44.101Z"
+      },
+      {
+        "name": "Fitmais+",
+        "url": "https://fitmais-ashen.vercel.app",
+        "category": "landing",
+        "status": "up",
+        "code": 200,
+        "latency": 106,
+        "timestamp": "2026-10-01T06:16:44.098Z"
+      },
+      {
+        "name": "LinkTreeWilliam",
+        "url": "https://linktree-william.vercel.app",
+        "category": "app",
+        "status": "down",
+        "code": 404,
+        "latency": 34,
+        "timestamp": "2026-10-01T06:16:44.099Z"
+      },
+      {
+        "name": "MemoryMatch",
+        "url": "https://memorymatch-me7b.onrender.com",
+        "category": "game",
+        "status": "up",
+        "code": 200,
+        "latency": 451,
+        "timestamp": "2026-10-01T06:16:44.104Z"
+      },
+      {
+        "name": "Meu-Portfolio",
+        "url": "https://meu-portfolio-sepia-seven.vercel.app",
+        "category": "portfolio",
+        "status": "up",
+        "code": 200,
+        "latency": 340,
+        "timestamp": "2026-10-01T06:16:44.100Z"
+      },
+      {
+        "name": "PaulinhoPereira",
+        "url": "https://paulinhopereira.onrender.com",
+        "category": "landing",
+        "status": "down",
+        "code": 503,
+        "latency": 340,
+        "timestamp": "2026-10-01T06:16:44.102Z"
+      },
+      {
+        "name": "PomodoroTimer",
+        "url": "https://pomodoro-timer-phi-ruby.vercel.app",
+        "category": "app",
+        "status": "up",
+        "code": 200,
+        "latency": 398,
+        "timestamp": "2026-10-01T06:16:44.106Z"
+      },
+      {
+        "name": "TeamBanks",
+        "url": "https://teambanks.onrender.com",
+        "category": "landing",
+        "status": "up",
+        "code": 200,
+        "latency": 353,
+        "timestamp": "2026-10-01T06:16:44.101Z"
+      },
+      {
+        "name": "Wiki-Cabal-Horizon",
+        "url": "https://cabal-online-wiki.onrender.com",
+        "category": "wiki",
+        "status": "up",
+        "code": 200,
+        "latency": 394,
+        "timestamp": "2026-10-01T06:16:44.103Z"
+      },
+      {
+        "name": "williamdev-hub",
+        "url": "https://williamdev-hub.vercel.app",
+        "category": "portfolio",
+        "status": "up",
+        "code": 200,
+        "latency": 146,
+        "timestamp": "2026-10-01T06:16:44.056Z"
       }
     ]
   }
